@@ -1,8 +1,6 @@
 package lib.sjy.february.剑指offer;
 
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Stack;
 
 /**
@@ -14,6 +12,10 @@ import java.util.Stack;
  */
 public class offer09_用两个栈实现队列 {
     public static void main(String[] args) {
+        StringBuilder builder = new StringBuilder();
+        builder.append("111").append("\r\n").append("221");
+        System.out.println("长度=" + builder.toString().length());
+        System.out.println(builder.toString());
     }
 }
 
